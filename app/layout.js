@@ -1,3 +1,14 @@
+import { GoogleTagManager } from "@next/third-parties/google";
+import { Inter } from "next/font/google";
+import Footer from "./components/footer";
+import Navbar from "./components/navbar";
+import "./css/card.scss";
+import "./css/globals.scss";
+import ScrollToTop from "./components/helper/scroll-to-top";
+import ToastProvider from "./components/helper/toast-provider";
+
+const inter = Inter({ subsets: ["latin"] });
+
 export const metadata = {
   title: "Portfolio of Rashvika Ponduri - Java Developer",
   description:
