@@ -1,13 +1,13 @@
 export const experiences = [
   {
     id: 1,
-    title: 'FullStack Developer',
+    title: 'Senior FullStack Developer',
     company: "JP Morgan Chase",
     duration: "(Jan 2024 - Present)"
   },
   {
     id: 2,
-    title: "FullStack Developer",
+    title: "Senior FullStack Developer",
     company: "Express Scripts",
     duration: "(May 2021 - Dec 2023)"
   },
