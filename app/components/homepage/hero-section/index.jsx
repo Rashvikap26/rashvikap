@@ -24,7 +24,7 @@ function HeroSection() {
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
-            This is {' '}
+            This is{" "}
             <span className=" text-pink-500">{personalData.name}</span>
             {` , I'm a Professional `}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
@@ -34,28 +34,33 @@ function HeroSection() {
           <div className="my-12 flex items-center gap-5">
             <Link
               href={personalData.github}
-              target='_blank'
+              target="_blank"
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
             </Link>
+
             <Link
               href={personalData.linkedIn}
-              target='_blank'
+              target="_blank"
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsLinkedin size={30} />
             </Link>
-  
-           
+
+            <a
+              href="/Rashvika-Ponduri-Resume.docx"
+              download="Rashvika-Ponduri-Resume.docx"
+              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              title="Download Resume"
+            >
+              <MdDownload size={30} />
+            </a>
           </div>
 
-          <div className="flex items-center gap-3">
-
-           
-          </div>
-
+          <div className="flex items-center gap-3"></div>
         </div>
+
         <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
           <div className="flex flex-row">
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
@@ -74,7 +79,7 @@ function HeroSection() {
                 <span className="mr-2 text-pink-500">const</span>
                 <span className="mr-2 text-white">coder</span>
                 <span className="mr-2 text-pink-500">=</span>
-                <span className="text-gray-400">{'{'}</span>
+                <span className="text-gray-400">{"{"}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
@@ -140,7 +145,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-green-400">hireable:</span>
                 <span className="text-orange-400">function</span>
-                <span className="text-gray-400">{'() {'}</span>
+                <span className="text-gray-400">{"() {"}</span>
               </div>
               <div>
                 <span className="ml-8 lg:ml-16 mr-2 text-orange-400">return</span>
@@ -171,6 +176,6 @@ function HeroSection() {
       </div>
     </section>
   );
-};
+}
 
 export default HeroSection;
