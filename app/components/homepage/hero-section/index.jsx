@@ -93,17 +93,17 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">REST APIs</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">GraphQL</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Spring Security (OAuth2/JWT)</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Kafka</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">React</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">React Native</span>
-                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">TypeScript</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">JavaScript</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Node.js</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">SQL</span>
                 <span className="text-gray-400">{"', '"}</span>
@@ -117,6 +117,10 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Jenkins </span>
                 <span className="text-gray-400">{"'],"}</span>
+                <span className="text-amber-300">Monitoring</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Testing</span>
+                <span className="text-gray-400">{"', '"}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">smartWorker:</span>
