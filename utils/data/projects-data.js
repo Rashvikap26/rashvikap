@@ -20,6 +20,7 @@ export const projectsData = [
       'gRPC',
       'GraphQL',
       'FrontEnd Development',
+      'AI',
       'Apache Kafka',
       'Oracle',
       'MongoDB',
