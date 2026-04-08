@@ -47,7 +47,7 @@ function HeroSection() {
             >
               <BsLinkedin size={30} />
             </Link>
-            {
+            {/*
             <a
               href="/Rashvika-Ponduri-Resume.docx"
               download="Rashvika-Ponduri-Resume.docx"
@@ -56,7 +56,7 @@ function HeroSection() {
             >
               <MdDownload size={30} />
             </a>
-            }
+            */}
 
           </div>
 

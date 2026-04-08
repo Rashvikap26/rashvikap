@@ -65,7 +65,7 @@ function ContactSection() {
                 size={48}
               />
             </Link>
-            {
+            {/*
             <a
                 href="/Rashvika-Ponduri-Resume.docx"
                 download="Rashvika-Ponduri-Resume.docx"
@@ -75,7 +75,7 @@ function ContactSection() {
               >
                 <MdDownload size={25} />
             </a>
-            }
+            */}
   
           </div>
         </div>
