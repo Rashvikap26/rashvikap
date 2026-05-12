@@ -6,12 +6,11 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
   {
     id: 1,
-    name: 'Credit Risk Decisioning & Customer Scoring Platform',
-    description: 'Built a scalable credit risk decisioning and customer scoring platform for banking applications to evaluate customer profiles, process account and risk-related data, validate decision rules, and support downstream banking integrations. Developed secure Spring Boot microservices and real-time UI flows to improve score evaluation, decision visibility, reason-code tracking, and operational support across enterprise banking systems.',
+    name: 'Payment Eligibility & Routing Platform',
+    description: 'Built a scalable payment eligibility platform for banking applications to validate transactions, perform entitlement and routing checks, process inbound payment files, and support downstream banking integrations. Developed secure microservices and real-time UI flows to improve eligibility decisioning, transaction visibility, and operational support.',
     techStack: [
       'Java 17',
       'Spring Boot',
-      '.NET Core',
       'Spring Security',
       'Spring Cloud Gateway',
       'Spring Batch',
@@ -40,7 +39,6 @@ export const projectsData = [
     techStack: [
       'Java 11',
       'J2EE',
-      '.NET Framework',
       'Spring Boot',
       'Spring Security',
       'Spring Batch',

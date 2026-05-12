@@ -11,12 +11,12 @@ export const experiences = [
     company: "Express Scripts",
     duration: "(Jul 2024 - May 2025)"
   },
-  /*{
+  {
     id: 3,
     title: "Full Stack Java Developer",
     company: "Cricket wireless",
     duration: "(Jul 2019 - Apr 2021)"
-  },*/
+  },
   {
     id: 3,
     title: "Software Developer",
